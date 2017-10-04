@@ -7,9 +7,9 @@ import static org.junit.Assert.*;
 /**
  * Created by brian on 10/4/17.
  */
-class SomeoneTest {
-//    @org.junit.jupiter.api.Test
-    void getTarget() {
+public class SomeoneTest {
+    @org.junit.Test
+    public void getTarget() {
         Someone mySomeone = new Someone();
         String myTarget = mySomeone.getTarget();
         assertTrue("Correct Target", myTarget == "brian");
